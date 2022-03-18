@@ -27,15 +27,15 @@
       "description": "Get this value by running python3 telesetup.py locally oorhttps://replit.com/@simpleboy786/Lion-X?v=1",
       "value": ""
     },
-    "TG_BOT_USERNAME": {
+    "BOT_USERNAME": {
       "description": "Needed for inline buttons maker. Make a bot at http://telegram.dog/BotFather and get the username of your bot",
       "value": ""
     },
-    "TG_BOT_TOKEN": {
+    "BOT_TOKEN": {
       "description": "Needed for inline buttons maker. Make a bot at http://telegram.dog/BotFather and get the token of your bot.Worth it. Get it.",
       "value": ""
     },
-    "COMMAND_HAND_LER": {
+    "HANDLER": {
       "description": "Set this one with only one the symbol to use it before your command to run like . , ' `",
       "value": ".",
       "required": false
@@ -45,12 +45,17 @@
       "value": "ANYTHING",
       "required": false
     },
-    "HEROKU_API_KEY": {
+    "API_KEY": {
       "description": "Required for updating the bot and other stuff get it from https://dashboard.heroku.com/account",
       "value": "",
       "required": false
     },
-    "HEROKU_APP_NAME": {
+        "SPAM": {
+      "description": "Required to Add Plugin Of Assistant Spam Bot (ON/OFF)",
+      "value": "",
+      "required": false
+    },
+    "APP_NAME": {
       "description": "YOUR app name ",
       "value": "",
       "required": false
